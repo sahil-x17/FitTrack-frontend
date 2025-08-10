@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_BASE = import.meta.env.PROD
-  ? "https://your-backend.onrender.com"  // <-- your Render backend URL here
+  ? "https://fittrack-backend-hwcy.onrender.com/"  // <-- your Render backend URL here
   : "http://localhost:5000";
 
 const API = axios.create({
